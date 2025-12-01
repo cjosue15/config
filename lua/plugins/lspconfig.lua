@@ -6,5 +6,8 @@ return {
       opts.servers = opts.servers or {}
       opts.servers.copilot = opts.servers.copilot or {}
     end
+    opts.inlay_hints = {
+      enabled = false,
+    }
   end,
 }
